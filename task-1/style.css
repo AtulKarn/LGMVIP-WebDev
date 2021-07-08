@@ -1,0 +1,17 @@
+.welcome{
+    /* width: 60%; */
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.features{
+    display: flex;
+}
+
+.feature-item{
+
+}
+
