@@ -15,7 +15,6 @@
 }
 
 
-
 .projectContents{
     display: flex;
 }
@@ -28,4 +27,29 @@
     align-items: center;
     justify-content: center;
     display: flex;
+}
+
+.teamMembers{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+
+}
+
+.blogContents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
