@@ -6,15 +6,26 @@
     text-align: center;
 }
 
+.title{
+    text-align: center;
+}
 
 .features{
     display: flex;
 }
 
-.feature-item{
 
+
+.projectContents{
+    display: flex;
 }
 
-.projects{
+.pricingTable{
+    text-align: center;
+}
+
+.pricingTableContents{
+    align-items: center;
+    justify-content: center;
     display: flex;
 }
