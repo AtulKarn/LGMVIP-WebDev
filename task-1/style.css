@@ -1,4 +1,4 @@
-.welcome{
+#welcome{
     /* width: 60%; */
     display: grid;
     grid-template-columns: 60%;
@@ -19,7 +19,7 @@
     display: flex;
 }
 
-.pricingTable{
+#pricingTable{
     text-align: center;
 }
 
@@ -43,7 +43,7 @@
     text-align: center;
 }
 
-.contact{
+#contact{
     display: flex;
 }
 
