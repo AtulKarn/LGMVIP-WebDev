@@ -29,6 +29,11 @@
     display: flex;
 }
 
+#videoProjects{
+    background-color: blueviolet;
+}
+
+
 .teamMembers{
     display: grid;
     grid-template-columns: auto auto auto;
