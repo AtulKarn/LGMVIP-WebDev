@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: transparent;
 }
 #welcome{
     display: flex;
@@ -142,6 +143,10 @@ img{
 
 }
 
+h1{
+    margin-bottom: 5%;
+}
+
 .memberCard img{
     position: absolute;
     width: 150px;
@@ -160,8 +165,8 @@ img{
     height: 150px;
     border-radius: 50%;
     background-color: purple;
-    z-index: 10;
-    opacity: 0%;
+    z-index: -1;
+    opacity: 50%;
 }
 
 
@@ -170,10 +175,14 @@ img{
     position: relative;
     width: 40px;
     height: 40px;
+    opacity: 100%;
 }
 
-.profileLinks:hover{
+
+
+.profilepic:hover{
     opacity: 50%;
+    z-index: -1;
 }
 
 .name{
@@ -182,4 +191,19 @@ img{
 
 .position{
     color: grey;
+}
+
+#newsletter{
+    position: relative;
+}
+
+.bgimage{
+
+}
+.newsletterForm{
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    left: 25%;
+    bottom: 25%;
 }
