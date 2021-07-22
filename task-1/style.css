@@ -137,15 +137,43 @@ img{
     color: lightgray;
 }
 
+.imageWrapper{
+    position: relative;
+
+}
 
 .memberCard img{
+    position: absolute;
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    top: 0%;
+    right: 0%;
 }
 
-.memberCard img:hover{
-    
+
+.profileLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: purple;
+    z-index: 10;
+    opacity: 0%;
+}
+
+
+
+.profileLinks img{
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+.profileLinks:hover{
+    opacity: 50%;
 }
 
 .name{
