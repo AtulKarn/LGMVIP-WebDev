@@ -265,8 +265,6 @@
     </div>
 
     <div id="newsletter">
-        <!-- <div class="bgimage"><img src="/assets/sunset.jpg" alt="background image"></div> -->
-
         <div class="newsletterForm">
             <div class="title">
                 <h1>Newsletter Signup</h1>
@@ -289,7 +287,7 @@
 
         <div class="blogContents">
             <div class="blogItem">
-                <img src="" alt="blog picture">
+                <img src="/assets/blog1.jpg" alt="blog picture">
                 <h5 class="blogTitle">Lorem ipsum</h5>
                 <p class="date">15 Jan, 2015</p>
                 <p class="blogIntro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus commodi aut aliquid
@@ -299,7 +297,7 @@
             </div>
 
             <div class="blogItem">
-                <img src="" alt="blog picture">
+                <img src="/assets/blog2.jpg" alt="blog picture">
                 <h5 class="blogTitle">Lorem ipsum</h5>
                 <p class="date">15 Jan, 2015</p>
                 <p class="blogIntro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus commodi aut aliquid
@@ -309,7 +307,7 @@
             </div>
 
             <div class="blogItem">
-                <img src="" alt="blog picture">
+                <img src="/assets/blog3.jpg" alt="blog picture">
                 <h5 class="blogTitle">Lorem ipsum</h5>
                 <p class="date">15 Jan, 2015</p>
                 <p class="blogIntro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus commodi aut aliquid
@@ -321,53 +319,65 @@
     </div>
 
     <div id="contact">
-        <div class="mapimg">
-            <img src="" alt="googleMapImg">
+        <div class="mapiframe">
+            <!-- <img src="/assets/map.png" alt="googleMapImg"> -->
+                <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=delhi+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                </iframe>
         </div>
         <div class="contactForm">
             <div class="title">
                 <h1>Contact</h1>
             </div>
-            <div class="form">
+            <div class="mainContactform">
                 <div>
                     <label for="name">NAME</label>
+                </div>
+                <div>
                     <input type="text" name="name" id="name">
                 </div>
 
                 <div>
                     <label for="email">EMAIL ADDRESS</label>
+                </div>
+                <div>
                     <input type="text" name="email" id="email">
                 </div>
 
                 <div>
                     <label for="subject">SUBJECT</label>
+                </div>
+                <div>
                     <input type="text" name="subject" id="subject">
                 </div>
 
                 <div>
                     <label for="message">MESSAGE</label>
-                    <input type="text" name="message" id="message">
+                </div>
+                <div>
+                    <input type="textarea" name="message" id="message" style="height:200px;">
                 </div>
 
-                <input type="button" value="SEND">
+                <button>SEND</button>
             </div>
         </div>
     </div>
 
     <footer>
-        <div class="officeAddress">
+        <div class="footerItem">
             <h5>Office Address</h5>
             <div>Lorem ipsum dolor, 234</div>
             <div>1200 consectetur</div>
             <div>adipisicing</div>
         </div>
 
-        <div class="follow">
+        <div class="footerItem">
             <h5>Follow Us</h5>
-            <div>Logos</div>
+                <a href="#zippyTeam"><img src="/assets/facebook-logo.png" alt="facebook"></a>
+                <a href="#zippyTeam"><img src="/assets/twitter-logo.png" alt="twitter"></a>
+                <a href="#zippyTeam"><img src="/assets/linkedin-logo.png" alt="linkedin"></a>
         </div>
 
-        <div class="contactUs">
+        <div class="footerItem">
             <h5>Contact Us</h5>
             <div>+ 123 456 789</div>
             <div>zippy@skype</div>
