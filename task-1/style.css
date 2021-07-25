@@ -1,43 +1,69 @@
 body{
     margin: 0;
-    background-color: transparent;
 }
 
 h1{
     margin-bottom: 5%;
 }
 
+
 #welcome{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    margin: 0 25% 0 25%;
+    padding: 0 25% 0 25%; 
 }
 
 .para-and-img{
     display: flex;
 }
 
+.para-and-img img{
+    width: 30%;
+}
 .title{
     text-align: center;
 }
 
 .features{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .feature-item{
-    margin: 5% 5% 5% 5%;
+    margin-top: 20px;
+    padding: 0 5% 0 5%;
+    width: 25%;
+}
 
+.feature-item-image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.feature-item-title{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.feature-item-desc{
+    margin-bottom: 15px;
+}
+
+.feature-item-button button{
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
 }
 
 button{
     background-color: yellow;
     border: none;
-
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
 }
 
 button:hover{
@@ -74,7 +100,7 @@ button:hover{
     background-color: yellow;
 }
 
-img{
+.projectimg img{
     width: 100%;
     height: 400px;
 }
@@ -192,23 +218,23 @@ img{
 .form{
     display: grid;
     grid-template-columns: auto;
-    margin: 0 5% 5% 10%;
-    width: 100%;
-    /* text-align: center; */
+
 }
 
 .emailBox input{
-    margin: auto auto auto auto;
-    width: 100%;
-    height: 150%;
+    margin-top: 20px;
+    width: 350px;
+    height: 40px;
     box-sizing: border-box;
-    text-align: center;
 }
 
-.signupButton{
-    margin-top: 10%;
+.signupButton button{
     box-sizing: border-box;
-    text-align: right; 
+    justify-content: right;
+    margin-top: 5px;
+    width: auto;
+    float: right;
+
 }
 
 .blogContents{
@@ -225,6 +251,7 @@ img{
 
 .blogContents img{
     height: auto;
+    width: 100%;
 }
 
 #contact{
@@ -264,7 +291,7 @@ iframe{
 }
 
 .contactForm button:hover{
-    border: 2px solid black;
+    background-color: blueviolet;
 }
 
 .contactForm label{
