@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
     <title>Zippy</title>
 </head>
 
 <body>
     <header>
+        <a class="zippyhome" href="#home">ZIPPY</a>
         <nav>
-            <a href="#home">ZIPPY</a>
             <a href="#welcome">HOME</a>
             <a href="#projects">PROJECTS</a>
             <a href="#pricingTable">PRICING</a>
@@ -21,6 +22,40 @@
             <a href="#contact">CONTACT</a>
         </nav>
     </header>
+
+    <div class="slideshow">
+        <div class="slideshowimg fade">
+            <img src="/assets/topimg1.jpg" alt="top image" style="display: block;">
+        </div>
+
+        <div class="slideshowimg fade">
+            <img src="/assets/topimg2.jpg" alt="top image">
+        </div>
+
+        <div class="slideshowimg fade">
+            <img src="/assets/topimg3.jpg" alt="top image">
+        </div>
+
+        <div class="slideshowimg fade">
+            <img src="/assets/topimg4.jpg" alt="top image">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <div class="dotcontainer style="text-align:left">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+
+    </div>
+
+    <script>
+        showSlidesauto();
+    </script>
 
     <div id="welcome">
         <div class="title">
