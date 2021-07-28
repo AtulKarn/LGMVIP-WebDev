@@ -335,8 +335,26 @@ button:hover {
   color: grey;
 }
 
+#lifeInZippy{
+  background-color: #c7c7c7;
+  padding-bottom: 20px;
+  margin-bottom: ;
+}
+
+.imageGallary{
+  text-align: center;
+  margin: 0 25% 0 25%;
+  position: relative;
+  margin-bottom: 50px;
+
+}
+
 .imageslide{
   display: none;
+}
+
+.imageslide img{
+  width: 640px;
 }
 
 .cursor {
@@ -350,9 +368,12 @@ button:hover {
 }
 
 .column {
-  float: left;
-  width: 16.66%;
+  /* float: left; */
+  width: 13%;
+  display: inline-block;
+  margin: 5px 5px 0 0;
 }
+
 .demo {
   opacity: 0.6;
 }
@@ -361,12 +382,6 @@ button:hover {
 .demo:hover {
   opacity: 1;
 }
-
-
-
-
-
-
 
 #newsletter {
   background-image: url("/assets/sunset.jpg");

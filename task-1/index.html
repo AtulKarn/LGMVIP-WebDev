@@ -302,7 +302,7 @@
     </div>
 
     <div id="lifeInZippy">
-        <div class="title">
+        <div class="title" style="padding-top: 10px;">
             <h1>Life in Zippy</h1>
         </div>
 
@@ -329,24 +329,32 @@
 
 
             <div class="row">
-                <div class="column">
+                <span class="column">
+                    <a class="prev" style="position: absolute; background-color: gray; top: 92%;" onclick="plusSlidesGallary(-1)">&#10094;</a>
+                </span>
+                <span class="column">
                     <img class="demo cursor" src="/assets/zippylife1.jpg" style="width:100%" onclick="currentSlideGallary(1)" alt="thumbnail">
-                </div>
-                <div class="column">
+                </span>
+                <span class="column">
                     <img class="demo cursor" src="/assets/zippylife2.jpg" style="width:100%" onclick="currentSlideGallary(2)" alt="thumbnail">
-                </div>
-                <div class="column">
+                </span>
+                <span class="column">
                     <img class="demo cursor" src="/assets/zippylife3.jpg" style="width:100%" onclick="currentSlideGallary(3)" alt="thumbnail">
-                </div>
-                <div class="column">
+                </span>
+                <span class="column">
                     <img class="demo cursor" src="/assets/zippylife4.jpg" style="width:100%" onclick="currentSlideGallary(4)" alt="thumbnail">
-                </div>
-                <div class="column">
+                </span>
+                <span class="column">
                     <img class="demo cursor" src="/assets/zippylife5.png" style="width:100%" onclick="currentSlideGallary(5)" alt="thumbnail">
-                </div>
+                </span>
+                <span class="column">
+                    <a class="next" style="position: absolute; background-color: gray; top: 92%; right: 40px;" onclick="plusSlidesGallary(1)">&#10095;</a>
+                </span>
             </div>
         </div>
-
+        <script>
+            currentSlideGallary(1);
+        </script>
     </div>
 
     <div id="newsletter">

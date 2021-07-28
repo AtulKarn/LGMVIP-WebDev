@@ -53,6 +53,10 @@ function currentSlideGallary(n) {
   showSlidesGallary((slideIndex = n));
 }
 
+function plusSlidesGallary(n) {
+  showSlidesGallary((slideIndex += n));
+}
+
 function showSlidesGallary(n) {
   var i;
   var slides = document.getElementsByClassName("imageslide");
