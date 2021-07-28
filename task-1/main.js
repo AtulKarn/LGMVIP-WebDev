@@ -75,6 +75,26 @@ function showSlidesGallary(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
+slideIndexVideo=1;
+
+function currentVideoSlide(n){
+  videoSlide((slideIndexVideo=n));
+}
+
+function plusVideoSlide(n){
+  videoSlide((slideIndexVideo+=n));
+}
+
+function videoSlide(n){
+  var i;
+  var videos = document.getElementsByClassName("videoslide");
+  if (n>videos.length){slideIndexVideo=1}
+  if (n<1){slideIndexVideo=videos.length}
+  for(i=0;i<videos.length;i++){
+    videos[i].style.display="none";
+  }
+  videos[slideIndexVideo-1].style.display="block";
+}
 
 
 

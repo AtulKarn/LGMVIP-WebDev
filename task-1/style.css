@@ -1,38 +1,39 @@
 body {
   margin: 0;
+  font-family: 'Quicksand', sans-serif;
 }
 
 h1 {
   margin-bottom: 5%;
 }
 
-nav{
-    position: absolute;
-    z-index: 10;
-    top: 30px;
-    right: 10%;
+nav {
+  position: absolute;
+  z-index: 10;
+  top: 30px;
+  right: 10%;
 }
 
-nav a{
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 15px;
+nav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
 }
 
-.zippyhome{
-    position: absolute;
-    z-index: 10;
-    top: 30px;
-    left: 20%;
-    text-decoration: none;
-    font-size: 40px;
-    font-weight: bold;
-    color: #f2f2f2;
+.zippyhome {
+  position: absolute;
+  z-index: 10;
+  top: 30px;
+  left: 20%;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f2f2f2;
 }
 
-.topintro{
+.topintro {
   position: absolute;
   z-index: 10;
   top: 20%;
@@ -41,16 +42,16 @@ nav a{
   color: #f2f2f2;
 }
 
-.topintroHeading{
+.topintroHeading {
   font-size: 40px;
   font-weight: bold;
 }
 
-.topintroPara{
+.topintroPara {
   font-size: 25px;
 }
 
-.topintro button{
+.topintro button {
   margin: 0;
   width: auto;
 }
@@ -73,10 +74,10 @@ nav a{
   position: relative;
 }
 
-.dotcontainer{
-    position: absolute;
-    top: 85%;
-    left: 30%;
+.dotcontainer {
+  position: absolute;
+  top: 85%;
+  left: 30%;
 }
 
 .dot {
@@ -122,26 +123,33 @@ nav a{
 }
 
 .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.0s;
-    animation-name: fade;
-    animation-duration: 1.0s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .8} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .8} 
-    to {opacity: 1}
-  }
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
 
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
+@keyframes fade {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 #welcome {
   padding: 0 25% 0 25%;
+  margin: 40px 0 40px 0;
 }
 
 .para-and-img {
@@ -165,7 +173,7 @@ nav a{
 .feature-item {
   margin-top: 20px;
   padding: 0 5% 0 5%;
-  width: 25%;
+  width: 40%;
 }
 
 .feature-item-image img {
@@ -211,6 +219,17 @@ button:hover {
 
 #videoProjects {
   background-color: blueviolet;
+  padding: 10px 0 50px 0;
+}
+
+.videoContainer {
+  position: relative;
+  margin: auto;
+}
+
+.videoslide {
+  display: none;
+  text-align: center;
 }
 
 .teamMembers {
@@ -276,7 +295,15 @@ button:hover {
 }
 
 .planPrice {
-  color: lightgray;
+  color: rgb(146, 143, 143);
+}
+
+.pricingTableItem button{
+  width: auto;
+}
+
+#zippyTeam{
+  margin-bottom: 40px;
 }
 
 .imageWrapper {
@@ -335,25 +362,23 @@ button:hover {
   color: grey;
 }
 
-#lifeInZippy{
+#lifeInZippy {
   background-color: #c7c7c7;
   padding-bottom: 20px;
-  margin-bottom: ;
 }
 
-.imageGallary{
+.imageGallary {
   text-align: center;
   margin: 0 25% 0 25%;
   position: relative;
   margin-bottom: 50px;
-
 }
 
-.imageslide{
+.imageslide {
   display: none;
 }
 
-.imageslide img{
+.imageslide img {
   width: 640px;
 }
 
@@ -368,8 +393,7 @@ button:hover {
 }
 
 .column {
-  /* float: left; */
-  width: 13%;
+  width: 12%;
   display: inline-block;
   margin: 5px 5px 0 0;
 }
@@ -424,13 +448,17 @@ button:hover {
   margin: 0 3% 0 3%;
 }
 
+.blogItem button{
+  width: auto;
+}
+
 .blogContents img {
   height: auto;
   width: 100%;
 }
 
 #contact {
-  margin: 10% 0 0 0;
+  margin: 40px 0 0 0;
   display: flex;
 }
 

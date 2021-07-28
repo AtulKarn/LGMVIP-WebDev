@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
     <title>Zippy</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -103,6 +108,7 @@
             </div>
         </div>
     </div>
+    <hr width="50%">
 
     <div id="projects">
         <div class="title">
@@ -208,7 +214,37 @@
             <h1>Video Projects</h1>
         </div>
 
+        <div class="videoContainer">
+            <div class="videoslide fade">
+                <video width="640px" controls>
+                    <source src="/assets/video1.mp4" type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+            </div>
+
+            <div class="videoslide fade">
+                <video width="640px" controls>
+                    <source src="/assets/video2.mp4" type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+            </div>
+
+            <div class="videoslide fade">
+                <video width="640px" controls>
+                    <source src="/assets/video3.mp4" type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+            </div>
+
+            <a class="prev" onclick="plusVideoSlide(-1)">&#10094;</a>
+            <a class="next" onclick="plusVideoSlide(1)">&#10095;</a>
+
+        </div>
     </div>
+
+    <script>
+        currentVideoSlide(1);
+    </script>
 
     <div id="zippyTeam">
         <div class="title">
@@ -330,25 +366,32 @@
 
             <div class="row">
                 <span class="column">
-                    <a class="prev" style="position: absolute; background-color: gray; top: 92%;" onclick="plusSlidesGallary(-1)">&#10094;</a>
+                    <a class="prev" style="position: absolute; background-color: gray; top: 92%;"
+                        onclick="plusSlidesGallary(-1)">&#10094;</a>
                 </span>
                 <span class="column">
-                    <img class="demo cursor" src="/assets/zippylife1.jpg" style="width:100%" onclick="currentSlideGallary(1)" alt="thumbnail">
+                    <img class="demo cursor" src="/assets/zippylife1.jpg" style="width:100%"
+                        onclick="currentSlideGallary(1)" alt="thumbnail">
                 </span>
                 <span class="column">
-                    <img class="demo cursor" src="/assets/zippylife2.jpg" style="width:100%" onclick="currentSlideGallary(2)" alt="thumbnail">
+                    <img class="demo cursor" src="/assets/zippylife2.jpg" style="width:100%"
+                        onclick="currentSlideGallary(2)" alt="thumbnail">
                 </span>
                 <span class="column">
-                    <img class="demo cursor" src="/assets/zippylife3.jpg" style="width:100%" onclick="currentSlideGallary(3)" alt="thumbnail">
+                    <img class="demo cursor" src="/assets/zippylife3.jpg" style="width:100%"
+                        onclick="currentSlideGallary(3)" alt="thumbnail">
                 </span>
                 <span class="column">
-                    <img class="demo cursor" src="/assets/zippylife4.jpg" style="width:100%" onclick="currentSlideGallary(4)" alt="thumbnail">
+                    <img class="demo cursor" src="/assets/zippylife4.jpg" style="width:100%"
+                        onclick="currentSlideGallary(4)" alt="thumbnail">
                 </span>
                 <span class="column">
-                    <img class="demo cursor" src="/assets/zippylife5.png" style="width:100%" onclick="currentSlideGallary(5)" alt="thumbnail">
+                    <img class="demo cursor" src="/assets/zippylife5.png" style="width:100%"
+                        onclick="currentSlideGallary(5)" alt="thumbnail">
                 </span>
                 <span class="column">
-                    <a class="next" style="position: absolute; background-color: gray; top: 92%; right: 40px;" onclick="plusSlidesGallary(1)">&#10095;</a>
+                    <a class="next" style="position: absolute; background-color: gray; top: 92%; right: 70px;"
+                        onclick="plusSlidesGallary(1)">&#10095;</a>
                 </span>
             </div>
         </div>
